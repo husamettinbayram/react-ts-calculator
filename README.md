@@ -1,4 +1,4 @@
-# React-Tyepescript calculator
+# React-Typescript calculator
 
 <h1> REACT TS calculator </h1>
 
