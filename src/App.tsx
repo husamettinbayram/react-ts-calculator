@@ -28,10 +28,10 @@ function App() {
         }
 
       case "delete":
-        if (lower !== "0") {
+        if ( state.lower.length >= 2) {
           return { ...state, lower: state.lower.slice(-0, -1) };
-        } else {
-          return state;
+        } else  {
+          return { ...state, lower: "0" };
         }
 
       case "deleteAll":

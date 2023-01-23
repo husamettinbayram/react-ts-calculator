@@ -10,7 +10,7 @@ function Buttons(props: {
   return (
     <div className="button-grid">
       <Button text={"AC"} type={"deleteAll"} dispatch={props.dispatch} clas={"span-two-column"} />
-      <Button text={"C"} type={"delete"} dispatch={props.dispatch} />
+      <Button text={"DEL"} type={"delete"} dispatch={props.dispatch} />
       <Button text={"+"} type={"operand"} dispatch={props.dispatch} />
 
       <Button text={"1"} type={"number"} dispatch={props.dispatch} />
